@@ -9,4 +9,5 @@
 
      - name: List all files in the test-data dir
        find:
-        paths: "{{ playbook_dir }}/../test-data"
+        path: "{{ playbook_dir }}/../test-data"
+        file_type: file
