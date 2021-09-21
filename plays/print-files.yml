@@ -7,9 +7,6 @@
      - name: "test reachability"
        ping:
 
-    #  - name: "list files"
-    #    file_type: file
-
      - name: List all files in the test-data dir
        find:
         paths: "{{ playbook_dir }}/../test-data"
